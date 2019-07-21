@@ -1,0 +1,17 @@
+{
+  "name": "rubyquaild-my-tween",
+  "version": "1.0.2",
+  "description": "a time independant tween",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "author": "ruby quail",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
